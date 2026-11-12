@@ -73,5 +73,6 @@ for (const favicon of ['favicon.ico', 'favicon-16x16.png', 'favicon-32x32.png', 
   await cp(from, resolve(distRoot, favicon), { force: true }).catch(() => {})
 }
 
+await writeFile(resolve(distRoot, '.nojekyll'), '')
 await rm(ssrRoot, { recursive: true, force: true })
 console.log(`Rendered ${renderer.pages.length} view pages`)

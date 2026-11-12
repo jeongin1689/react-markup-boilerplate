@@ -106,6 +106,7 @@ function mpaDevPlugin() {
 export default defineConfig(({ isSsrBuild }) => ({
   plugins: [react(), mpaDevPlugin()],
   appType: 'mpa',
+  base: './',
   server: {
     port: 3033,
   },
