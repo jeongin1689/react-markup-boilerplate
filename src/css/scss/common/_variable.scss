@@ -1,0 +1,21 @@
+:root {
+  --primary: #111;
+  --primary-contrast: #fff;
+  --surface-page: #f5f6f7;
+  --surface: #fff;
+  --surface-muted: #eef0f2;
+  --text-primary: #111;
+  --text-secondary: #586269;
+  --border: #d8dcdf;
+}
+
+.dark {
+  --primary: #f7f8f8;
+  --primary-contrast: #111;
+  --surface-page: #111417;
+  --surface: #1d2226;
+  --surface-muted: #293036;
+  --text-primary: #f7f8f8;
+  --text-secondary: #b7bec3;
+  --border: #3b444b;
+}
